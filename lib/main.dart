@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Screens/UserProfile.dart';
-import './screens/EditProfile.dart';
+import 'screens/user_profile.dart';
+import 'screens/edit_profile.dart';
 
 void main() {
   runApp(MyApp());

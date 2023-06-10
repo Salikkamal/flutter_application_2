@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import '../Screens/UserProfile.dart';
-import '../screens/EditProfile.dart';
+import '../screens/user_profile.dart';
+import '../screens/edit_profile.dart';
 
-class listview extends StatelessWidget {
+class listtile extends StatelessWidget {
   String title;
-  String subtitle;
+  String? subtitle;
   IconData leading, trailing;
 
-  listview(
+  listtile(
       {required this.title,
       required this.leading,
-      required this.subtitle,
+      this.subtitle,
       required this.trailing});
 
   @override
@@ -19,7 +19,6 @@ class listview extends StatelessWidget {
       leading: Icon(leading),
       trailing: Icon(trailing),
       title: Text(title),
-      subtitle: Text(subtitle),
     );
   }
 }
