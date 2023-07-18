@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/user_profile.dart';
-import 'screens/edit_profile.dart';
+import 'package:flutter_application_2/pages/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'accademy',
-      home: EditProfile(),
+      home: HomePage(),
     );
   }
 }
